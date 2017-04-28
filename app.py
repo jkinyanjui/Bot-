@@ -76,14 +76,16 @@ def webhook():
                         send_message(sender_id, "Where is that university located?")
 
                     if(message_text == {"Course":["Computer Science","IT","Finance","Engineering","Design"]}):
-                        send_message(sender_id,"Are you in need of a Job?)
-                        elif(message_text == "Yes" or "yes")
+                        send_message(sender_id, "Are you in need of a Job?")
+                    elif(message_text == "Yes" or "yes"):
                             send_message(sender_id,"Visit our website:Brave Venture Labs")
-                        elif(message_text == "No" or "no")
-                            send_message(sender_id,"What kind of information do you require?")
+                    elif(message_text == "No" or "no"):
+                        send_message(sender_id,"What kind of information do you require?")
                     else:
                         send_message(sender_id,"We currently do not have job vacancies for you")
-                    
+                #    if(message_tet == {"Majors":""}):
+
+
 
 
 
