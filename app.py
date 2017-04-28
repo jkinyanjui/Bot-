@@ -118,7 +118,7 @@ def webhook():
                         send_message(sender_id, "Cool Princeton is a good university. What course are you doing?")
                     elif(message_text == "University Of Sydney"):
                         send_message(sender_id, "Cool University Of Sydney is a good university. What course are you doing?")
-                    elif(message_text == "University"):
+                    elif():
                         send_message(sender_id, "I don't know where that is but I hope it's a good university. What did you study there?")
                 '''if(message_text == {"Course":["Computer Science","IT","Finance","Engineering","Design"]}):
                     send_message(sender_id, "Are you in need of a Job?")
